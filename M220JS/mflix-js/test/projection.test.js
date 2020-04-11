@@ -17,6 +17,10 @@ describe("Projection", () => {
     expect(movies.length).toEqual(1468)
     movies.map(movie => {
       const movieKeys = Object.keys(movie).sort()
+
+      console.log(movieKeys);
+      
+
       const expectedKeys = ["_id", "title"]
       expect(movieKeys).toEqual(expectedKeys)
     })
