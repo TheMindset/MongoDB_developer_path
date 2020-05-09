@@ -8,4 +8,6 @@
 
 > Expressions are functions
 
-En claire `aggragation pipeline` se compose de plusieurs fonctions chacun va recevoir des datas en entrée, les transformer, et les envoyer à une autre fonctions ou pas.
+En claire `aggragation pipeline` se compose de plusieurs fonctions chacun va recevoir des datas en entrée, les transformer, et les envoyer à une autre fonctions ou pas. (voir exemple project: mflix ==> movieDao.js ==> static facetedSearch).
+
+
